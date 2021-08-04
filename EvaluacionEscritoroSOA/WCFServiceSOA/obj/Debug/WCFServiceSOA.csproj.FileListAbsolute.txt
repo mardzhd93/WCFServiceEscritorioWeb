@@ -1,0 +1,5 @@
+C:\Users\IROXIT031\source\repos\EvaluacionEscritoroSOA\WCFServiceSOA\bin\WCFServiceSOA.dll.config
+C:\Users\IROXIT031\source\repos\EvaluacionEscritoroSOA\WCFServiceSOA\bin\WCFServiceSOA.dll
+C:\Users\IROXIT031\source\repos\EvaluacionEscritoroSOA\WCFServiceSOA\bin\WCFServiceSOA.pdb
+C:\Users\IROXIT031\source\repos\EvaluacionEscritoroSOA\WCFServiceSOA\obj\Debug\WCFServiceSOA.dll
+C:\Users\IROXIT031\source\repos\EvaluacionEscritoroSOA\WCFServiceSOA\obj\Debug\WCFServiceSOA.pdb

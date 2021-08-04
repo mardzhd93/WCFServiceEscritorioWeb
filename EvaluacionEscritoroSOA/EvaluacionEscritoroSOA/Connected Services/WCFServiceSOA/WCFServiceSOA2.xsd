@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WCFServiceSOA" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WCFServiceSOA" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfVentas">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Ventas" nillable="true" type="tns:Ventas" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfVentas" nillable="true" type="tns:ArrayOfVentas" />
+  <xs:complexType name="Ventas">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CantidadVendida" type="xs:int" />
+      <xs:element minOccurs="0" name="Descripcion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Titulo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Ventas" nillable="true" type="tns:Ventas" />
+  <xs:complexType name="ArrayOfArticulos">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Articulos" nillable="true" type="tns:Articulos" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfArticulos" nillable="true" type="tns:ArrayOfArticulos" />
+  <xs:complexType name="Articulos">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Descripcion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Existencias" type="xs:int" />
+      <xs:element minOccurs="0" name="Titulo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Articulos" nillable="true" type="tns:Articulos" />
+  <xs:complexType name="ArrayOfVentasGlobales">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="VentasGlobales" nillable="true" type="tns:VentasGlobales" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfVentasGlobales" nillable="true" type="tns:ArrayOfVentasGlobales" />
+  <xs:complexType name="VentasGlobales">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CantidadVendida" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalVentas" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="VentasGlobales" nillable="true" type="tns:VentasGlobales" />
+</xs:schema>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvaluacionEscritorioSOA", "EvaluacionEscritoroSOA\EvaluacionEscritorioSOA.csproj", "{06EEF37A-8502-4301-938F-7BD67F25FE76}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AA57C906-E548-46AF-89AD-99FA57D29F89} = {AA57C906-E548-46AF-89AD-99FA57D29F89}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServiceSOA", "WCFServiceSOA\WCFServiceSOA.csproj", "{AA57C906-E548-46AF-89AD-99FA57D29F89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06EEF37A-8502-4301-938F-7BD67F25FE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06EEF37A-8502-4301-938F-7BD67F25FE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06EEF37A-8502-4301-938F-7BD67F25FE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06EEF37A-8502-4301-938F-7BD67F25FE76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA57C906-E548-46AF-89AD-99FA57D29F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA57C906-E548-46AF-89AD-99FA57D29F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA57C906-E548-46AF-89AD-99FA57D29F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA57C906-E548-46AF-89AD-99FA57D29F89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C0CA910-6CB6-4992-AA2E-E4FDEA8F1EDB}
+	EndGlobalSection
+EndGlobal
